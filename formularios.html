@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição - Esporte para Todos</title>
+    <link rel="icon" href="img/tag.jpg">
+    <link rel="stylesheet" type="text/css" href="css/forms.css">
+</head>
+<body>
+   
+<header>
+    <nav>
+        <ul>
+            <li><a href="pagina_inicial.html">Página Inicial</a></li>
+            <li><a href="sobre_nos.html">Sobre Nós</a></li>
+            <li><a href="noticias.html">Notícias</a></li>
+            <li><a href="formularios.html">Formulários</a></li>
+        </ul>
+    </nav>
+
+    <div class="head-forms">
+    <nav>
+        <ul>
+            <li><a href="formularios.html"> Cadastro de Aulas></a></li>
+            <li><a href="login.html">Login de Voluntário></a></li>
+            <li><a href="voluntario.html">Seja um Voluntário></a></li>
+      
+        </ul>
+    </nav>
+    </div>
+</header>
+
+
+  <div>
+    <h1 id="Título">Cadastro de Aulas</h1>
+    <p id="Subtítulo">Informe os dados necessários a baixo: </p>
+    <br>
+
+  </div>  
+
+  <form>
+    
+    <fieldset class="formulario">
+        <div class="campos">
+            <label for="Nome"><strong>Nome completo:    </strong></label>
+            <input type="text" placeholder="Exemplo: Vitoria Ferreira da Silva" name="nome" id="campo-nome" required>
+        </div>
+
+        <div class="campos">
+            <label for="Email"><strong>Email:   </strong></label>
+            <input type="email" name="Email" placeholder="Exemplo: joao.gomes@email.com" id="campo-email" required>
+        </div>
+ 
+        <div class="campos">
+            <label for="Mae"><strong>Nome completo da mãe:  </strong></label>
+            <input type="text" name="mae" placeholder="Exemplo: Rosa Maria dos Santos" id="campo-mae" required>
+        </div>
+
+        <div class="campos">
+            <label for="Nascimento"><strong>Data de nascimento:     </strong></label>
+            <input type="date" name="nascimento" placeholder="Exemplo: 22/05/2009" id="campo-nascimento" required>
+        </div>
+    
+        <div class="campos">
+            <label for="CPF"><strong>CPF:   </strong></label>
+            <input type="number" name="cpf" placeholder="Exemplo: 123.456.789-00" id="campo-cpf" required>
+        </div>
+    
+        <div class="campos">
+            <label for="Telefone"><strong>Telefone:     </strong></label>
+            <input type="number" name="telefone" placeholder="Exemplo: (11)91234-5678" id="campo-telefone" required>
+        </div>
+    
+        <div class="campos">
+            <label for="Endereço"><strong>Endereço:     </strong></label>
+            <input type="text" name="endereço" placeholder="Exemplo: Rua das Rosas, nº22" id="campo-endereço" required>
+        </div>
+   
+        <div class="campos">
+            <label for="Cidade"><strong>Cidade:     </strong></label>
+            <input type="text" name="cidade" placeholder="Exemplo: Sacomã" id="campo-cidade" required>
+        </div>
+    
+        <div class="campos">
+            <label>Estado:</label><br>
+            <select id="campo-estado">
+                <option selected disabled value="">Selecione</option>
+                <option>Acre</option>
+                <option>Alagoas</option>
+                <option>Amapá</option>
+                <option>Amazonas</option>
+                <option>Bahia</option>
+                <option>Ceará</option>
+                <option>Espírito Santo</option>
+                <option>Goiás</option>
+                <option>Maranhão</option>
+                <option>Mato Grosso</option>
+                <option>Mato Grosso do Sul</option>
+                <option>Minas Gerais</option>
+                <option>Pará</option>
+                <option>Paraíba</option>
+                <option>Paraná</option>
+                <option>Pernambuco</option>
+                <option>Piauí</option>
+                <option>Rio de Janeiro</option>
+                <option>Rio Grande do Norte</option>
+                <option>Rio Grande do Sul</option>
+                <option>Rondônia</option>
+                <option>Roraima</option>
+                <option>Santa Catarina</option>
+                <option>São Paulo</option>
+                <option>Sergipe</option>
+                <option>Tocantins</option>
+            </select>
+            <br>
+        </div>
+
+    <div id="checkbox" class="campos">
+        <br>
+        <label>Informe o esporte para qual você deseja se inscrever:</label><br>
+        <label>
+            <input type="radio" id="Voleiball" name="inscrição-para-esporte" value="Voleiball">Voleiball
+        </label>
+        <label>
+            <input type="radio" id="Basquete" name="inscrição-para-esporte" value="Basquete">Basquete
+        </label>
+        <label>
+            <input type="radio" id="Futebol" name="inscrição-para-esporte"  value="Futebol">Futebol
+        </label>
+        <label>
+            <input type="radio" id="Natação" name="inscrição-para-esporte" value="Natação">Natação
+        </label>
+        <label>
+            <input type="radio" id="Handball" name="inscrição-para-esporte"  value="Handball">Handball
+        </label>
+        <label>
+            <input type="radio" id="Muay-Thai" name="inscrição-para-esporte" value="Muay-Thai">Muay-Thai
+        </label>
+        <label>
+            <input type="radio" id="Balé" name="incrição-para-esporte" value="Balé">Balé
+        </label>
+        <label>
+            <input type="radio" id="Atletismo" name="incrição-para-esporte" value="Atletismo">Atletismo
+        </label>
+        <br>
+    </div>  
+    
+    <div class="campos">
+        <label>Idade:</label>
+        <select id="campo-idade">
+            <option selected disabled value="">Selecione</option>
+            <option>Entre 5-8</option>
+            <option>Entre 9-12</option>
+            <option>Entre 13-16</option>
+            <option>Entre 17-20</option>
+            <option>Mais de 20</option>
+        </select>
+        <br>
+    </div>
+    
+    <div class="campos-horario" id="checkbox-horario">
+        <br>
+        <label>Selecione a grade horária de aulas desejada:</label><br>
+        <label>
+            <input type="radio" id="Matutino" name="Matutino" value="Matutino">Matutino
+        </label>
+        <label>
+            <input type="radio" id="Vespertino" name="Vespertino" value="Vespertino">Vespertino
+        </label>
+        <label>
+            <input type="radio" id="Noturno" name="Noturno" value="Noturno">Noturno
+        </label>
+    </div>
+    </fieldset>
+    
+    <section>
+    <div class="avaliacao-site" id="checkbox">
+        <br>
+        <label><strong>  Avalie nosso formulário!</strong></label>
+        <ul>
+        <li><input type="radio" id="Péssimo" name="Péssimo" value="Péssimo">Péssimo</li>
+        <li><input type="radio" id="Muito ruim" name="Muito ruim" value="Muito ruim">Muito Ruim</li>
+        <li><input type="radio" id="Ruim" name="Ruim" value="Ruim">Ruim </li>
+        <li><input type="radio" id="Regular" name="Regular" value="Regular">Regular</li>
+        <li><input type="radio" id="Bom" name="Bom" value="Bom">Bom</li>
+        <li><input type="radio" id="Muito bom" value="Muito Bom">Muito Bom</li>
+        <li><input type="radio" id="Ótimo" name="Ótimo" value="Ótimo">Ótimo</li>
+        </ul>
+    </div>
+    </section>
+
+    <div class="botao">
+        <button type="submit">Enviar</button>
+    </div>
+    <br>
+
+  </form>
+
+    <footer>
+        <div class="conteudo_rodape">
+        <div class="coluna_rodape">
+            <h3>Serviços</h3>
+                <ul>
+                    <li>Consultoria</li>
+                    <li>Suporte</li>
+                    <li>Desenvolvimento</li>
+                    <li>Central de Ajuda</li>
+                    <li>Ouvidoria</li>
+                </ul>
+        </div>
+
+        <div class="coluna_rodape">
+            <h3>Contatos</h3>
+            <ul>
+                <li>E-mail: esporteparatodos.contato@gmail.com</li>
+                <li>Telefone: (11)95021-1937</li>
+                <li>Instagram: @esporteparatodos</li>
+                <li>Facebook: Instituto Esporte para Todos</li>
+                <li>LinkedIn: Instituto Esporte para Todos</li>
+                <li>Youtube: Esporte para Todos</li>
+            </ul>
+        </div>
+
+        <div class="coluna_rodape">
+            <h3>Sede</h3>
+            <ul>
+                <li>Rua da Esperança, 1515.</li>
+                <li>Sacomã, São Paulo</li>
+                <li>04252-000</li>
+            </ul>
+            <h3>Termos e Condições</h3>
+            <ul>
+                <li>Termos de Uso</li>
+                <li>Política de Privacidade</li>
+            </ul>
+        </div>
+        </div>
+
+        <p>Instituto Esporte para Todos &copy; 2025. Todos os direitos reservados.</p>
+
+    </footer>
+</body>
+</html>

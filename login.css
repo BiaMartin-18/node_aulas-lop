@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +6,7 @@
 
 body{
     min-height: 100vh;
-    background-color: #f0e2bd;
+    background-color: rgb(199,208,211);
     display: flex;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -16,7 +15,6 @@ body{
     margin: auto;
     width: 500px;
     max-width: 90%;
-    animation: slideIn 0.7s ease;
 }
 
 .container form{
@@ -30,14 +28,14 @@ body{
 
 .container form h1{
     text-align: center;
-    text-decoration: #8EAA94;
+    text-decoration: rgb(26,27,104);
     margin-bottom: 20px;
 }
 
 .container form .form-control{
     width: 100%;
     height: 100%;
-    background-color: #8EAA94;
+    background-color: rgb(53, 88, 153);
     border-radius: 20px;
     padding: 10px;
     border: none;   
@@ -47,7 +45,7 @@ body{
     display: block;
     margin-right: auto;
     margin-left: auto;
-    background-color:#6C3751;
+    background-color:rgb(17, 86, 143);
     padding:10px;
     border: none;
     border-radius: 20px;
@@ -57,8 +55,7 @@ body{
     color: aliceblue;
 }
 .btn:hover{
-    background-color: #52223C;
-    transform: scale(1.03);
+    background-color: #0d0058;
 }
 
 .container form .bnt:hover{
@@ -66,13 +63,13 @@ body{
 }
 
 .senha{
-    color: #6B666D;
+    color: rgb(6, 63, 109);
     padding-top: 5%;
 }
 
 .icon-bar {
     width: 90px;
-    background-color: #8EAA94;
+    background-color: rgb(6, 63, 109);
 }
   
 .icon-bar a {
@@ -80,38 +77,14 @@ body{
     text-align: center;
     padding: 16px;
     transition: all 0.3s ease;
-    color: aliceblue;
+    color: white;
     font-size: 36px;
 }
   
 .icon-bar a:hover {
-    background-color: #52223C;
+    background-color: #000;
 }
   
 .active {
-    background-color: #6C3751;
-}
-
-@keyframes slideIn {
-    from {
-        opacity: 0;
-        transform: translateY(-30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-.login h1 {
-    animation: fadeIn 1s ease;
+    background-color: #00014e;
 }

@@ -1,0 +1,271 @@
+html {
+  background-color: rgb(199, 208, 211);
+  display: block;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #333;
+  justify-content: center;
+}
+
+header {
+    background-color: rgb(6, 63, 109);
+    color: white;
+    border: 10px;
+}
+  
+header nav ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+  
+header nav ul li {
+    list-style: none;
+    padding: 15px;
+    display: inline;
+    margin-right: 20px;
+    font-size: 19px;
+}
+  
+header nav ul li a {
+    color: aliceblue;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 19px;
+    padding-left: 40px;
+    padding-right: 50px;
+}
+
+.head-forms nav ul{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-top: 0%;
+    height: 50px;
+    position: relative;
+    float: left;
+}
+
+.head-forms nav ul li{
+    list-style: none;
+    padding: 15px;
+    margin-top: 0%;
+    
+}
+
+.head-forms nav ul li a{
+    text-decoration: none;
+    color:rgb(76, 131, 173);
+    margin-left: 0%;
+    margin-top: 0%; 
+}
+
+#Título{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(16, 75, 124);
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1%;
+    
+}
+
+#Subtítulo{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(243, 251, 253);
+    margin-left:0%;
+    font-size: larger;
+    text-align: center;
+    font-weight: bold;
+}
+
+fieldset{
+    border-radius: 30px;
+    border-color: rgb(161, 182, 228);
+    background-color: rgb(255, 255, 255);
+    border: 0cap;
+    width: 31%;
+    padding: 2%;
+    margin: auto;
+}
+
+input .campos, #campo-nome, #campo-endereço, #campo-email, #campo-mae, #campo-cpf, #campo-nascimento, #campo-telefone, #campo-cidade {
+    width: 200%;
+}
+
+input {
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-style: inherit;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+option {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.campos, .campos-horario{
+    font-weight: bold;
+}
+.campos {
+    display: block;
+    border-color: rgb(6, 63, 109);
+    width: 300px;
+    padding: 0.1%;
+}
+
+.campos option {
+    width: 10px;
+    font-weight: bold;
+}
+
+#checkbox.campos {
+    display: inline;
+}
+
+.campos input::placeholder {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+fieldset .grupo .campos .campos-horario{
+float: none;
+margin: right;
+padding-bottom: 10px;
+}
+
+.campos select option{
+    padding-right: 2;
+}
+
+.campo input:focus, .campo select:focus{ 
+    background-color:rgb(95, 131, 197);
+}
+
+.botao {
+    width: 250px;
+    border-radius: 12px;
+    padding: 14px 28px;
+    border-style:inherit;
+    justify-content: center;
+    align-content: center;
+    color: rgb(16, 75, 124);
+    margin-left: auto;
+    margin-right: auto;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    display: flex;
+}
+
+.avaliacao-site, .campos-horario {
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
+    justify-items: auto;
+    font-weight: bold;
+}
+
+.avaliacao-site ul, .campos-horario ul{
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
+    text-align: justify;
+}
+
+.avaliacao-site ul li, .campos-horario ul li{
+    display: inline;
+    list-style: none;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+}
+
+#checkbox {
+    display:inline-block;
+    text-decoration: none;
+}
+
+#checkbox-horario {
+    display:inline-block;
+    text-decoration: none;
+}
+
+section {
+    padding: 10px;
+    margin: 20px auto;
+    border: 100px;
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    justify-items: center;
+    text-align: justify;
+    border-radius: 30px;
+}
+
+.conteudo_rodape {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 20px;
+  }
+    
+  .coluna_rodape {
+    margin: 10px;
+  }
+    
+  .coluna_rodape h3 {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+    
+  .coluna_rodape ul {
+    list-style: none;
+    padding: 0;
+  }
+    
+  .coluna_rodape ul li {
+    margin: 5px;
+    font-size: 15px;
+    list-style: none;
+  }
+    
+  .coluna_rodape a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: rgb(6, 63, 109);
+    color: white;
+    list-style: none;
+  }
+  
+  footer p {
+    font-size: 15px;
+    background-color: rgb(6, 63, 109);
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
